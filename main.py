@@ -5,7 +5,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
 TELEGRAM_TOKEN = '7662899091:AAG8W8Zp_AoqqbzvSSi6ymixaxXjsxfciHw'
-OPENROUTER_API_KEY = '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'
+OPENROUTER_API_KEY = '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'
 
 conn = sqlite3.connect("players.db", check_same_thread=False)
 cursor = conn.cursor()
