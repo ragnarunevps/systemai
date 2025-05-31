@@ -4,7 +4,7 @@ import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-TELEGRAM_TOKEN = '7591194319:AAHmZee_5ve4xpmgXxnU8CHFZoiZzDgEQP8'
+TELEGRAM_TOKEN = '7662899091:AAG8W8Zp_AoqqbzvSSi6ymixaxXjsxfciHw'
 OPENROUTER_API_KEY = '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'
 
 conn = sqlite3.connect("players.db", check_same_thread=False)
